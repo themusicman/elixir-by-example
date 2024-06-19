@@ -1,0 +1,51 @@
+<!-- livebook:{"persist_outputs":true} -->
+
+# DateTime.add/4
+
+## Getting started
+
+```elixir
+initial = DateTime.utc_now()
+```
+
+<!-- livebook:{"output":true} -->
+
+```
+~U[2024-06-19 03:07:06.236071Z]
+```
+
+## Add minutes
+
+```elixir
+DateTime.add(initial, 2, :minute)
+```
+
+<!-- livebook:{"output":true} -->
+
+```
+~U[2024-06-19 03:09:06.236071Z]
+```
+
+## Add hours
+
+```elixir
+DateTime.add(initial, 5, :hour)
+```
+
+<!-- livebook:{"output":true} -->
+
+```
+~U[2024-06-19 08:07:06.236071Z]
+```
+
+## Add days
+
+```elixir
+DateTime.add(initial, 12, :day)
+```
+
+<!-- livebook:{"output":true} -->
+
+```
+~U[2024-07-01 03:07:06.236071Z]
+```
