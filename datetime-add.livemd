@@ -2,7 +2,7 @@
 
 # DateTime.add/4
 
-## Getting started
+## Setup
 
 ```elixir
 initial = DateTime.utc_now()
